@@ -53,4 +53,15 @@ CUDA_VISIBLE_DEVICES=0 nohup python3 -u main_CL.py --exp_name i2b2_1-1_distill_W
 ```
 Then, the results as well as the model checkpoint will be saved automatically in the directory *./experiments/i2b2_1-1_distill_WT_WF/1/* 
 
+### Citation
+If CNER_WF-WT has been beneficial for your research or applications, we kindly request you to acknowledge this by citing the following paper:
 
+```bibtex
+@inproceedings{yu2024flexible,
+  title={Flexible Weight Tuning and Weight Fusion Strategies for Continual Named Entity Recognition},
+  author={Yu, Yahan and Zhang, Duzhen and Chen, Xiuyi and Chu, Chenhui},
+  booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+  pages={1351--1358},
+  year={2024}
+}
+```
